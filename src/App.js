@@ -9,7 +9,7 @@ function App() {
     <div className="container d-flex flex-column w-50">
       <h1 className="mt-5">Checklist:</h1>
       {tasks.map((task) => {
-        return <TaskComponent task={task} />;
+        return <TaskComponent value={task} />;
       })}
       <AddTaskComponent />
     </div>
