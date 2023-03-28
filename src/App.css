@@ -1,3 +1,16 @@
 .container {
   height: 100vh;
 }
+
+.delete-button {
+  display: none !important;
+  margin-right: 13.5px;
+}
+
+.task-component {
+  width: 100
+}
+
+.task-component:hover .delete-button {
+  display: inline !important;  
+}
